@@ -29,23 +29,22 @@ The primary focus is to understand what drives housing prices and to build a pre
 - Removed duplicates and irrelevant columns  
 - Handled missing values:  
   - Numeric → imputed with mean  
-  - Categorical → filled with "Unknown"  
+  - Categorical → filled with "Unknown" <br>
+  ![Missing Value Counts](visuals/missing_values.png)  
 - Standardized column naming and datatypes
 - Clean Dataset Size: 992,522 records
-
-![Missing Value Counts](visuals/missing_values.png)
 
 ---
 
 ### 2. Exploratory Data Analysis (EDA)
 - Distribution of prices and log-prices
 ![Price Distribution](visuals/price_dist.png)
-- Relationships between area, bedrooms, bathrooms and price
+- Relationships between bedrooms, bathrooms and price
 ![Bed and Bath vs Price](visuals/bed_bath.png)
 - Boxplots of price across states/cities
 ![Geographical Location vs Price](visuals/price_state.png)
-- Correlation heatmaps
-![Correlation](visuals/corr.png)
+- Correlation heatmaps<br>
+![Correlation](visuals/correlation.png)
 
 
 ---
