@@ -88,7 +88,7 @@ The primary focus is to understand what drives housing prices and to build a pre
 | Model                    | RMSE ($)   | R²    |
 |--------------------------|------------|-------|
 | Baseline (Median)        | ~218,000   |   -   |
-| Linear Model (w leakage) | ~64,000    | 0.81  |
+| Linear Model (w leakage) | ~64,000    | 0.91  |
 | XGBoost (w leakage)      | ~7,700     | 0.99  |  
 | XGBoost (final model)    | ~93,000    | 0.81  |
 
