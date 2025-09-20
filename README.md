@@ -31,19 +31,22 @@ The primary focus is to understand what drives housing prices and to build a pre
   - Numeric → imputed with mean  
   - Categorical → filled with "Unknown"  
 - Standardized column naming and datatypes
-- Clean Dataset Size: 994,220 records
+- Clean Dataset Size: 992,522 records
 
-📌 *[Insert figure: missing value heatmap / summary]*
+![Missing Value Counts](visuals/missing_values.png)
 
 ---
 
 ### 2. Exploratory Data Analysis (EDA)
-- Distribution of prices and log-prices  
-- Relationships between area, bedrooms, bathrooms and price  
-- Boxplots of price across states/cities  
-- Correlation heatmaps  
+- Distribution of prices and log-prices
+![](visuals/price_dist.png)
+- Relationships between area, bedrooms, bathrooms and price
+![](visuals/bed_bath.png)
+- Boxplots of price across states/cities
+![](visuals/price_state.png)
+- Correlation heatmaps
+![](visuals/corr.png)
 
-📌 *[Insert figures: price distribution, scatter plots, boxplots]*
 
 ---
 
@@ -99,20 +102,10 @@ The primary focus is to understand what drives housing prices and to build a pre
 4. **City (~7%)**  
 5. **Zip code (~7%)**  
 
-📌 *[Insert figure: feature importance bar chart]*
+![Feature Imporatnce](visuals/feature_imp.png)
 
 **Interpretation:**  
 Geographic indicators (state, city, zip code) provide the **strongest signal** for predicting house prices, reflecting regional price variation. Among property characteristics, **bathrooms and house size** play the next most important roles in determining price.
-
----
-
-## 📈 Visuals (to add later)
-- Price distribution histogram  
-- Scatter plots of house size/area vs. price  
-- Boxplots of price by state and city  
-- Hypothesis test result plots (ANOVA/T-test)  
-- Model comparison chart  
-- Feature importance chart  
 
 ---
 
