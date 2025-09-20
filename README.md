@@ -39,13 +39,13 @@ The primary focus is to understand what drives housing prices and to build a pre
 
 ### 2. Exploratory Data Analysis (EDA)
 - Distribution of prices and log-prices
-![](visuals/price_dist.png)
+![Price Distribution](visuals/price_dist.png)
 - Relationships between area, bedrooms, bathrooms and price
-![](visuals/bed_bath.png)
+![Bed and Bath vs Price](visuals/bed_bath.png)
 - Boxplots of price across states/cities
-![](visuals/price_state.png)
+![Geographical Location vs Price](visuals/price_state.png)
 - Correlation heatmaps
-![](visuals/corr.png)
+![Correlation](visuals/corr.png)
 
 
 ---
