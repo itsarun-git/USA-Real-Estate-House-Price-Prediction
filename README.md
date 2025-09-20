@@ -109,7 +109,8 @@ Geographic indicators (state, city, zip code) provide the **strongest signal** f
 ---
 
 ## 👤 Author
-**Name**: Arun Chand
-Data Scientist | MBA
+
+**Name**: Arun Chand <br>
+Data Scientist | MBA <br>
 **Contact**: chandarun12@gmail.com
 ---
